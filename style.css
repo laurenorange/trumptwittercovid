@@ -1,0 +1,33 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.axisLabel {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+.axis,
+.xaxis {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: .8em;
+}
+
+.legend {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: .75em;
+}
+
+.sub {
+    font-size: .60em;
+}
+
+#text {
+    margin: 2%;
+    line-height: 1.25em;
+}

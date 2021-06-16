@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Trump's Twitter Presence and How It Affects His Approval Rating in the Time of COVID-19, by Lauren Li</title>
+    <script src="d3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div id="vis"></div>
+    <div id="text">
+        <h3><u>Project details</u></h3>
+        <p>My goal for this project was to look for a correlation between President Trump's approval rating and his
+            Twitter activity (tweets and retweets) since Twitter seems to be his main source of communication with the
+            general public. If there is no correlation between his approval rating and Twitter activity, how much of an
+            impact does COVID-19, or economic factors affect his approval rating?</p>
+        <p>To explore economic factors, I recorded daily closing prices for stock market inidices (NASDAQ, DJI, and
+            S&P), number of unemployment claims submitted every week at a national level, and average weekly national
+            gas prices (regular and diesel). I also recorded daily new and confirmed COVID cases at a national level
+            since we are currently living in a pandemic. In order to try to measure the full impact of how COVID-19
+            might be affecting Trump's approval rating, I collected all of my data starting from Jan 1st-Dec 7th, 2020.
+        </p>
+        <p><b>Hypothesis:</b> Due to Trump's unconventional presidency, I predicted that his Twitter activity would
+            affect his approval rating more than economic factors or new and confirmed COVID cases at a national level.
+        </p>
+        <p><b>Conclusion:</b> Based on my <a href="data.json" target="_blank">data</a>, scatterplot explorations, and final visualization, I do not see a correlation
+            between Trump's Twitter activity and his approval rating. Out of all my recorded properties, the one that
+            seems to have the strongest correlation with his approval rating appears to be the number of new and
+            confirmed COVID cases at a national level. This is not to say that COVID cases affect Trump’s approval
+            rating consistently, but that it may have had an impact on his approval ratings between May-October 2020.
+        </p>
+        <p>For more details about my project, view my <a href="report.pdf" target="_blank">final report</a>.</p>
+    </div>
+</body>
+<script src="main.js"></script>
+
+</html>
